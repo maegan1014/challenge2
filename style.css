@@ -1,9 +1,130 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    color:palevioletred;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #F08080; 
+}
+
+header h1 {
+  display: inline;
+  margin: 0;
+  color:black;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav {
+  float: right;
+  margin: 3px 0;
+}
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+section {
+  padding: 60px;
+}
+
+footer {
+  background: #F08080;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: black;
+  font-size: 30px;
+  margin: 0;
+}
+/* Hero Style Start */
+.hero {
+  background-image: url(image3.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* Hero Style Ends */
+
+.hero-form {
+  border: 3px solid black;
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  bottom: 120px;
+  right: 140px;
+  position: center;
+  margin: 0 auto;
+}
+
+.hero-form h2 {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  border-bottom: 3px solid;
+}
+.intro h2 {
+  text-align: start;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: black;
+  width: 100%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.primary-border {
+  border-color:black;
+}
+
+.secondary-border {
+  border-color: black;
+}
+
+.list {
+  text-align: center;
+}
+
+.list h2 {
+text-align: start;
+  }
+
+.list{
+  width: 900px;
+    margin: 0 auto 30px auto;
+    background:#F08080;
+    color: black;
+    overflow: auto;
+  }
+  .list img {
+  width: 35%;
+  float: left;
+
+  .list-bio {
+  font-size: 32px;
+  margin-bottom: 8px;
 }
